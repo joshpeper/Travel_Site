@@ -1,0 +1,24 @@
+.row {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  &__b-margin-until-medium {
+    margin-bottom: 1rem;
+  }
+  @mixin atMedium {
+    flex-direction: row;
+    &__b-margin-until-medium {
+      margin-bottom: 0;
+    }
+    &__medium-4 {
+      flex: 2;
+      align-items: center;
+      align-content: center;
+    }
+    &__medium-8 {
+      margin: 0;
+      padding: 0 3rem;
+      flex: 3;
+    }
+  }
+}
