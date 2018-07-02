@@ -7,7 +7,7 @@
     "lazysizes": "4.0.4",
     "normalize.css": "^8.0.0",
     "picturefill": "3.0.2",
-    "waypoints": "4.0.1"
+    "waypoints": "^4.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^8.6.4",
